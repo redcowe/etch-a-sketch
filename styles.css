@@ -1,0 +1,97 @@
+body,
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, #bcd4de, #a5ccd1, #a0b9bf);
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    margin-bottom: auto;
+    flex: 0 1 50px;
+    color: #F4F4F6;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #F4F4F6;
+    box-shadow: 0 8px #888;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4f4f6c0;
+}
+
+button:active {
+    box-shadow: 0 5px #888;
+    transform: translateY(3px);
+}
+footer {
+    display: flex;
+    margin-top: auto;
+    flex: 0 1 50px;   
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #F4F4F6;
+}
+
+a {
+    text-decoration: none;
+    color: #F4F4F6;
+}
+
+.game-panel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: #F4F4F6;
+    
+}
+
+.game-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 0 1 50px;
+    padding: 10px;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9dacb2;
+    border-radius: 5px;
+    height: 150px;
+    padding: 5px;
+
+}
+.game-board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.game-board {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 15px;
+    border: #F4F4F6 5px solid;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
