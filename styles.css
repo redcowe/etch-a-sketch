@@ -71,14 +71,17 @@ a {
 .controls-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #9dacb2;
     border-radius: 5px;
-    height: 150px;
+    height: 250px;
     padding: 5px;
+    gap: 20px;
+    text-align: center;
 
 }
+
 .game-board-container {
     display: flex;
     justify-content: center;
@@ -101,5 +104,5 @@ a {
 
 .game-grid {
     border: 1px #F4F4F6 solid;
-    background-color: black;
+    
 }
