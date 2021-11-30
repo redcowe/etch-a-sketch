@@ -115,7 +115,7 @@ function updateMultiplier() {
     sizeMultiplier.textContent = `${multiplier}x${multiplier}`
 };
 
-
+/// Event listeners
 gridSizer.addEventListener('change', function() {
     updateGrid();
     updateMultiplier();
